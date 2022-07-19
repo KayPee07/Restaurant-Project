@@ -1,0 +1,64 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #f17916;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-style: italic;
+  font-weight: bold;
+}
+h1 {
+  color: rgb(24, 228, 102);
+}
+
+li {
+  cursor: pointer;
+  list-style: none;
+}
+
+li:hover {
+  color: #f17916;
+  border-radius: 5px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin: 0 20vw;
+  background-color: rgb(197, 230, 15);
+  padding: 1em;
+  border-radius: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  background-color: rgb(197, 230, 15);
+  margin: 4em;
+  padding: 2em;
+  border-radius: 40px;
+}
+
+.description {
+  font-size: 3rem;
+  margin: auto;
+}
+
+img {
+  width: 300px;
+}
+
+.img-desc-container {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-self: center;
+  margin: 2em 0;
+}
